@@ -6,8 +6,8 @@ sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/u
      stable"
 sudo apt-get update
 sudo apt-get install docker-ce
-apt-cache madison docker-ce
-sudo apt-get install docker-ce=17.03.1~ce-0~ubuntu-xenial
+#apt-cache madison docker-ce
+#sudo apt-get install docker-ce=17.03.1~ce-0~ubuntu-xenial
 sudo docker run hello-world
 sudo groupadd docker
 sudo usermod -aG docker $USER
