@@ -9,7 +9,7 @@ sudo apt-get install docker-ce
 #apt-cache madison docker-ce
 #sudo apt-get install docker-ce=17.03.1~ce-0~ubuntu-xenial
 sudo docker run hello-world
-sudo groupadd docker
+#sudo groupadd docker
 sudo usermod -aG docker $USER
-sudo docker run hello-world
+docker run hello-world
 sudo systemctl enable docker
